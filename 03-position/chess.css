@@ -1,0 +1,112 @@
+.board {
+  width: 628px;
+  height: 600px;
+  border: double;
+  border-width: 5px;
+  background-color: blue;
+  padding: 60px 32px 60px 60px;
+}
+
+.fila2 {
+  position: relative;
+  top: -4px;
+}
+
+.fila3 {
+  position: relative;
+  top: -8px;
+}
+
+.fila4 {
+  position: relative;
+  top: -12px;
+}
+
+.fila5 {
+  position: relative;
+  top: -16px;
+}
+
+.fila6 {
+  position: relative;
+  top: -20px;
+}
+
+.fila7 {
+  position: relative;
+  top: -24px;
+}
+
+.fila8 {
+  position: relative;
+  top: -28px;
+}
+
+.cell-black{
+  /* margin: -2px; */
+  width: 75px;
+  height: 75px;
+  background-color: saddlebrown;
+  display: inline-block;
+  /* position: relative;
+  left: -4px; */
+}
+
+.cell-white{
+  /* margin: -2px; */
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  display: inline-block;
+  /* position: relative;
+  left: -4px; */
+}
+
+.relative2{
+  position: relative;
+  left: -4px;
+}
+
+.relative3{
+  position: relative;
+  left: -8px;
+}
+
+.relative4{
+  position: relative;
+  left: -12px;
+}
+
+.relative5{
+  position: relative;
+  left: -16px;
+}
+
+.relative6{
+  position: relative;
+  left: -20px;
+}
+
+.relative7 {
+  position: relative;
+  left: -24px;
+}
+
+.relative8 {
+  position: relative;
+  left: -28px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}

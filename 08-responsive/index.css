@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+/* Mobile */
+
+.header {
+  background-color: aquamarine;
+  color: blue;
+}
+
+.navContainer {
+  background-color: gray;
+}
+
+.menuOption {
+  border: solid;
+  color: black;
+  display: block;
+}
+
+/* PC */
+
+@media(min-device-width: 450) {
+
+  .header {
+    background-color: aquamarine;
+    color: blue;
+  }
+  
+  .navContainer {
+    background-color: gray;
+  }
+  
+  .menuOption {
+    border: solid;
+    color: black;
+    display: inline-block;
+  }
+
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}

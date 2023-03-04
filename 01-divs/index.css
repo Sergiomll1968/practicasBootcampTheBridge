@@ -1,0 +1,39 @@
+div {
+  width: 100px;
+  height: 100px;
+  border: solid 1px black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#idA {
+  border: dashed 2px red;
+}
+
+#idB {
+  border-style: dotted;
+  border-width: 5px;
+  border-color: blue;
+}
+
+.classA {
+  border: double 10px orange;
+}
+
+.classB {
+  border: solid 5px green;
+  color: darkgreen;
+}
+
+.big {
+  height: 500px;
+  width: 500px;
+  display: block;
+  background-color: rgb(170, 244, 219);
+  margin: 200px 20px 20px;
+  padding: 10px;
+}
+
+.small {
+  background-color: #CF6868;
+}

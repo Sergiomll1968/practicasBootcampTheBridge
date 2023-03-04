@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Forms</title>
+</head>
+<body>
+
+  <form action="./secondary.html" method="post">
+
+    <div class="inputContainer">
+      <p>De cara a la gente es:</p>
+      <label for="radioYesId">Periodista</label>
+      <input type="radio" id="radioYesId" name="profession" value="periodista">
+      <label for="radioNoId">Cocinero</label>
+      <input type="radio" id="radioNoId" name="profession" value="cocinero">
+    </div>
+
+    <div class="inputContainer">
+      <label for="numberId">Personas importantes en su vida:</label>
+      <input id="numberId" type="number" name="persons" step="1" min="0" max="5">
+    </div>
+
+    <div class="inputContainer">
+      <label for="rangeId">Número de "logos" en su vestimenta:</label>
+      <input id="rangeId" type="range" name="logosNumber" step="1" min="0" max="3">
+    </div>
+
+    <div class="inputContainer">
+      <p>Como va vestido:</p>
+      <label for="firstCheckboxId">Trajeado</label>
+      <input id="firstCheckboxId" type="checkbox" name="dressType" value="trajeado">
+      <label for="secondCheckboxId">Casual</label>
+      <input id="secondCheckboxId" type="checkbox" name="dressType" value="casual">
+      <label for="thirdCheckboxId">Superheroe</label>
+      <input id="thirdCheckboxId" type="checkbox" name="dressType" value="superheroe">
+    </div>
+
+    <div class="inputContainer">
+      <label for="selectId">Uno del los colores principales de su traje de superheroe es:</label>
+      <select name="color1" id="selectId">
+        <option value="rojo">Rojo</option>
+        <option value="amarillo">Amarillo</option>
+        <option value="verde">Verde</option>
+      </select>
+    </div>
+
+    <div class="inputContainer">
+      <label for="colorId">Y el otro es:</label>
+      <input type="text" list="datalistId" id="colorId" name="color2">
+      <datalist id="datalistId">
+        <option value="Azul"></option>
+        <option value="Naranja"></option>
+        <option value="Rosa"></option>
+      </datalist>
+    </div>
+
+    <div class="inputContainer">
+      <label for="textareaId">Mas información</label>
+      <textarea name="additionalInfo" id="textareaId" cols="30" rows="5" placeholder="Es capaz de parar el mundo"></textarea>
+    </div>
+
+    <div class="inputContainer">
+      <label for="withplaceHolder">Donde nacio</label>
+      <input id="withplaceHolder" type="text" name="wasBornIn" placeholder="Escribe aquí...">
+    </div>
+
+    <div class="inputContainer">
+      <label for="passwordId">Personaje</label>
+      <input id="passwordId" type="password" name="character">
+    </div>
+
+    <div class="inputContainer">
+      <button type="submit">Submit</button>
+    </div>
+
+  </form>
+
+</body>
+</html>

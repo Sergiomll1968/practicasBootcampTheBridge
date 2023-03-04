@@ -1,0 +1,42 @@
+.board {
+  width: 600px;
+  height: 600px;
+  border: double;
+  border-width: 5px;
+  /* border-color: rgb(66, 48, 2);
+  background-color: rgb(89, 31, 3); */
+  background-image: url(./imagen.jpg);
+  padding: 60px;
+}
+
+.cell-black{
+  margin: -2px;
+  width: 75px;
+  height: 75px;
+  background-color: saddlebrown;
+  display: inline-block;
+  /* background: linear-gradient(rgb(39, 22, 2), rgb(218, 132, 46)); */
+}
+
+.cell-white{
+  margin: -2px;
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  display: inline-block;
+  /* background: linear-gradient(rgb(192, 192, 8), rgb(255, 255, 255)); */
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}

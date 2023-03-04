@@ -1,0 +1,30 @@
+.board {
+  width: 600px;
+  height: 600px;
+  border: double;
+  border-width: 5px;
+  background-color: blue;
+  padding: 60px;
+}
+
+.floatRight {
+  float: right;
+}
+
+.clearRight {
+  clear: right;
+}
+
+.cell-black{
+  width: 75px;
+  height: 75px;
+  background-color: saddlebrown;
+  display: inline-block;
+}
+
+.cell-white{
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  display: inline-block;
+}

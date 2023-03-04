@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Forms</title>
+</head>
+<body>
+
+  <h1>Forms</h1>
+
+  <h2>Input types</h2>
+
+  <form action="./secondary.html" method="post">
+
+    <div class="inputContainer">
+      <label for="withplaceHolder">Input text with placeholder</label>
+      <input id="withplaceHolder" type="text" name="textName" placeholder="Insert text...">
+    </div>
+
+    <div class="inputContainer">
+      <label for="withDefaultValue">Input text with default value</label>
+      <input id="withDefaultValue" type="text" name="defaultTextName" value="Default value">
+    </div>
+
+    <div class="inputContainer">
+      <label for="passwordId">Password</label>
+      <input id="passwordId" type="password" name="passwordName">
+    </div>
+
+    <div class="inputContainer">
+      <label for="numberId">Number</label>
+      <input id="numberId" type="number" name="numberName" step="2">
+    </div>
+
+    <div class="inputContainer">
+      <label for="rangeId">Range</label>
+      <input id="rangeId" type="range" name="rangeName" step="10">
+    </div>
+
+    <div class="inputContainer">
+      <p>Checkbox) Marque cualquiera de las siguientes casillas:</p>
+      <label for="firstCheckboxId">Checkbox 1</label>
+      <input id="firstCheckboxId" type="checkbox" name="checkboxName" value="firstCheckboxValue">
+      <label for="secondCheckboxId">Checkbox 2</label>
+      <input id="secondCheckboxId" type="checkbox" name="checkboxName" value="secondCheckboxValue">
+    </div>
+
+    <div class="inputContainer">
+      <p>Radio) Elija una opción:</p>
+      <label for="radioYesId">Si</label>
+      <input type="radio" id="radioYesId" name="radioName" value="yes">
+      <label for="radioNoId">No</label>
+      <input type="radio" id="radioNoId" name="radioName" value="no">
+    </div>
+
+    <div class="inputContainer">
+      <label for="selectId">Select) Elija una opción:</label>
+      <select name="selectName" id="selectId">
+        <option value="Option1">Option 1</option>
+        <option value="Option2">Option 2</option>
+        <option value="Option3">Option 3</option>
+        <option value="Option4">Option 4</option>
+        <option value="Option5">Option 5</option>
+      </select>
+    </div>
+
+    <div class="inputContainer">
+      <label for="colorId">Datalist) Elije un color</label>
+      <input type="text" list="datalistId" id="colorId" name="colorName">
+      <datalist id="datalistId">
+        <option value="amarillo"></option>
+        <option value="rojo"></option>
+        <option value="azul"></option>
+      </datalist>
+    </div>
+
+    <div class="inputContainer">
+      <label for="textareaId">Textarea</label>
+      <textarea name="textareaName" id="textareaId" cols="30" rows="5"></textarea>
+    </div>
+
+    <div class="inputContainer">
+      <button type="submit">Submit</button>
+    </div>
+
+  </form>
+
+  <div class="button"><a href="../index.html">Inicio</a></div>
+
+</body>
+</html>

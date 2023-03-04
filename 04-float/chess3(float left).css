@@ -1,0 +1,44 @@
+.board {
+  width: 600px;
+  height: 600px;
+  border: double;
+  border-width: 5px;
+  background-color: blue;
+  padding: 60px;
+}
+
+.floatLeft {
+  float: left;
+}
+
+.clearLeft {
+  clear: left;
+}
+
+.cell-black{
+  width: 75px;
+  height: 75px;
+  background-color: saddlebrown;
+  display: inline-block;
+}
+
+.cell-white{
+  width: 75px;
+  height: 75px;
+  background-color: white;
+  display: inline-block;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}

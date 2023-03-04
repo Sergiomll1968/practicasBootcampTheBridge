@@ -1,0 +1,98 @@
+html * {
+  margin: 0px;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+body > div > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+body > div + div {
+  margin-bottom: 10px;
+}
+
+.firstChildRow :first-child {
+  color: red;
+  border-color: red;
+}
+
+.lastChildRow :last-child {
+  color: red;
+  border-color: red;
+}
+
+.oddRow :nth-child(odd) {
+  color: red;
+  border-color: red;
+}
+
+.evenRow :nth-child(even) {
+  color: red;
+  border-color: red;
+}
+
+.ownOddRow :nth-child(2n+3) {
+  color: red;
+  border-color: red;
+}
+
+.ownEvenRow :nth-child(2n+4) {
+  color: red;
+  border-color: red;
+}
+
+.fourthElementRow :nth-child(4) {
+  color: red;
+  border-color: red;
+}
+
+.podiumRow :nth-child(-n+3) {
+  color: red;
+  border-color: red;
+}
+
+.descenseRow :nth-last-child(-n+3) {
+  color: red;
+  border-color: red;
+}
+
+.x :nth-child() {
+  color: red;
+  border-color: red;
+}
+
+.actions:hover {
+  color: blue;
+  border-color: blue;
+}
+
+.actions:active {
+  color: green;
+  border-color: green;
+}
+
+a:visited {
+  color: green;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}

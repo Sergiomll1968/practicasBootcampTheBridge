@@ -1,0 +1,55 @@
+.board {
+  width: 360px;
+  height: 480px;
+}
+
+.cell {
+  margin: -2px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-image: url(./imagen7.jpg);
+}
+
+.cell-red{
+  background-color: rgb(255,3,5);
+  background-image: url(./imagen3.jpg);
+}
+
+.cell-brown{
+  background-color: rgb(97,34,16);
+  background-image: url(./imagen4.jfif);
+}
+
+.cell-lightsalmon{
+  background-color: rgb(233,162,74);
+  background-image: url(./imagen5.jfif);
+}
+
+.cell-black{
+  background-color: black;
+}
+
+.cell-blue{
+  background-color: rgb(16,68,126);
+  background-image: url(./imagen2.jpg);
+}
+
+.cell-gold{
+  background-color: rgb(247,253,23);
+  background-image: url(./imagen6.jpg);
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+  position: fixed;
+  top: 5px;
+  right: 5px;
+}
