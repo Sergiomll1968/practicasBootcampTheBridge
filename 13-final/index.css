@@ -48,8 +48,8 @@ a:link {
   /* width: 20%; */
   height: 100%;
   background-color: #8f8f8f;
-  margin-top: auto;
-  margin-bottom: auto;
+  /* margin-top: auto;
+  margin-bottom: auto; */
   justify-content: center;
   align-items: center;
 }
