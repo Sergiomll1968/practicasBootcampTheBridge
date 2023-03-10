@@ -22,7 +22,7 @@ for (let i = 0; i < people.length; i++) {
 
   // Checking conditions
 
-  if ((people[i].age >= 18) || (people[i].age < 18 && people[i].isEmancipated) || (people[i].age >= 16 && people[i].age < 18 && people[i].isAuthorizated)) {
+  if ((people[i].age >= 18) || (people[i].age < 18 && people[i].isEmancipated) || (people[i].age > 16 && people[i].age < 18 && people[i].isAuthorizated)) {
 
     // Showing results in console that meet the conditions
 
